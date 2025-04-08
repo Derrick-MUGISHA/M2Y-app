@@ -1,0 +1,31 @@
+name: first_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.0.1
+  firebase_core: ^1.10.0
+  firebase_messaging: ^11.2.11
+  image_picker: ^0.8.4+4
+  file_picker: ^5.2.0
+  crypto: ^3.0.1
+  pointycastle: ^3.0.1
+  flutter_secure_storage: ^6.0.0
+  web_socket_channel: ^2.2.0
+  intl: ^0.17.0  # Added intl dependency to resolve errors
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
